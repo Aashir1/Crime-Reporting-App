@@ -83,7 +83,7 @@ class Complain extends React.Component {
         console.log(this.state.dataArray);
         return (
             <div>
-                <RaisedButton onClick={this.registerCrime} style={{ margin: '5px' }} label="Complain" secondary={true} />
+                <RaisedButton onClick={this.registerCrime} style={{ margin: '5px' }} label="Complain" primary={true} />
                 <h1>
                     Your Complains
                 </h1>

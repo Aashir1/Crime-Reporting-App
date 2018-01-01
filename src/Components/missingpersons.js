@@ -77,7 +77,7 @@ class MissingPersons extends React.Component {
         console.log(this.state.dataArray);
         return (
             <div>
-                <RaisedButton onClick={this.registerMissingPerson} style={{ margin: '5px' }} label="Report Missing Person" secondary={true} />
+                <RaisedButton onClick={this.registerMissingPerson} style={{ margin: '5px' }} label="Report Missing Person" primary={true} />
                 <h1>
                     Missing Persons
                 </h1>

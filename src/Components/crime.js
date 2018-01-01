@@ -77,7 +77,7 @@ class Crimes extends React.Component {
         console.log(this.state.dataArray);
         return (
             <div>
-                <RaisedButton onClick={this.registerCrime} style={{ margin: '5px' }} label="Report Crime" secondary={true} />
+                <RaisedButton onClick={this.registerCrime} style={{ margin: '5px' }} label="Report Crime" primary={true} />
                 <h1>
                     Crimes
                 </h1>
