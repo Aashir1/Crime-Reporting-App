@@ -1,0 +1,23 @@
+{
+  "name": "practice",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
+    "firebase": "^4.8.1",
+    "material-ui": "^0.20.0",
+    "react": "^16.0.0",
+    "react-alert": "^2.4.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "react-responsive": "^4.0.3",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
